@@ -17,6 +17,7 @@ public class DistanceApplication {
         setCoordinates(p2,10,20);
         dist = distance(p1,p2);
         displayDistanceMessage(p1,p2,dist);
+        System.out.println("\nDistance calculated in 'Point' class: "+Point.distanceBetweenPoints(p1,p2));
     }
 
     public static double distance(Point p1, Point p2) {
@@ -29,7 +30,7 @@ public class DistanceApplication {
     }
 
     private static void displayDistanceMessage(Point p1, Point p2, double dist) {
-        String message = "Distance between points\n   p1(" + p1.x + "; "+ p1.y + ")  \n   p2(" +p2.x + "; " +p2.y +")  \nis: " +dist;
+        String message = "\nDistance between points (calculated via dedicated method in Distance Application)\n   p1(" + p1.x + "; "+ p1.y + ")  \n   p2(" +p2.x + "; " +p2.y +")  \nis: " +dist;
         System.out.println(message);
     }
 }
