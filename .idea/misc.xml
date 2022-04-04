@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/sandbox/pom.xml" />
+        <option value="$PROJECT_DIR$/distance/pom.xml" />
       </list>
     </option>
   </component>
